@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let angle=0;
-const line= document.querySelector('line');
+const line= document.getElementById('line');
 
 setInterval(() => {
   angle += 2; // Increment the angle by 2 degrees
